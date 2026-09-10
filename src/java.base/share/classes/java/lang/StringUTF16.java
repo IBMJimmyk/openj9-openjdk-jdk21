@@ -39,7 +39,7 @@ import jdk.internal.vm.annotation.IntrinsicCandidate;
 import static java.lang.String.UTF16;
 import static java.lang.String.LATIN1;
 
-final class StringUTF16 {
+public final class StringUTF16 {
 
     // Return a new byte array for a UTF16-coded string for len chars
     // Throw an exception if out of range
